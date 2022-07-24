@@ -43,7 +43,7 @@ const EditUser = () => {
     return (
         <Container maxWidth="sm">
             <Box my={5}>
-            <Typography variant="h5" align="center">Update User Details</Typography>
+            <Typography variant="h5" align="center">Update Posts Details</Typography>
             <FormGroup>
                 <FormControl>
                     <InputLabel>Title</InputLabel>
@@ -59,7 +59,7 @@ const EditUser = () => {
                 </FormControl>
                 
                 <Box my={3}>
-                    <Button variant="contained" onClick={() => editUserDetails() } color="primary" align="center">Update User</Button>
+                    <Button variant="contained" onClick={() => editUserDetails() } color="primary" align="center">Update Post</Button>
                     <Button onClick={()=> history.push("/all")} variant="contained" color="secondary" align="center" style={{margin: '0px 20px'}}>Cancel</Button>
                 </Box>
             </FormGroup>
