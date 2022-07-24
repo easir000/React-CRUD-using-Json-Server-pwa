@@ -38,7 +38,7 @@ dev<br>
 concurrently "npm start" "npm run json-server"<br>
 build<br>
 react-scripts build<br>
-eject<br>![20200126_134756](https://user-images.githubusercontent.com/46495303/180647071-ac1fa6ec-d094-4616-9512-9165c2ef896d.jpg)
+eject<br>
 
 react-scripts eject
 
